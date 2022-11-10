@@ -7,9 +7,9 @@
           :work="member.work"
           :birthday="member.birthday"
           :content="member.content"
-          :image = "member.image"
+          :image = "member.image" 
       ></profile-card>
-    </div> 
+    </div>
   <!-- <div>
     <profile-card
       name="JobJob"
@@ -56,7 +56,7 @@ export default {
           birthday:"09 11 2002",
           content: "KU81",
           image: "/assets/images/profile.jpg",
-          isMember: false,
+          isMember: true,
         }
     ]
     // ,

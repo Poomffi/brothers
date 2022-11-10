@@ -14,11 +14,10 @@
 export default {
     data(){
         return{
-            dropdown: false
-        }
-        return{
+            dropdown: false,
             count: 0
         }
+    
     }
 }
 </script>

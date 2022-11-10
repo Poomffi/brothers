@@ -2,7 +2,9 @@
   <div
     class="w-1/3 rounded-lg border-2 p-3 shadow-lg transition duration-300 ease-in-out hover:bg-blue-300 hover:scale-105"
   >
-    <div :src="getUrlImage(image)" class="w-2/3 rounded-full mx-auto" alt=""></div>
+    <!-- <div :src="getUrlImage(image)" class="w-2/3 rounded-full mx-auto" alt=""></div> -->
+    
+    <img :src="getUrlImage(image)" class="w-2/3 rounded-full mx-auto"  alt="">
     <div class="flex justify-between w-2/3 mx-auto">
       <div class="text-xl font-bold uppercase">My Profile</div>
       <div class="text-xl font-normal">
@@ -48,7 +50,7 @@ export default {
   },
   methods:{
     getUrlImage(imagePath){
-      return {"background-image": 'url("./src'+ imagePath +'")'};
+      return './src'+ imagePath;
     }
   }
   
