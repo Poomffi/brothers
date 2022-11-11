@@ -4,7 +4,7 @@
   >
     <!-- <div :src="getUrlImage(image)" class="w-2/3 rounded-full mx-auto" alt=""></div> -->
     
-    <img :src="getUrlImage(image)" class="w-2/3 rounded-full mx-auto"  alt="">
+    <img :src="getUrlImage(image)" class="w-2/5 rounded-full mx-auto "  alt="">
     <div class="flex justify-between w-2/3 mx-auto">
       <div class="text-xl font-bold uppercase">My Profile</div>
       <div class="text-xl font-normal">
@@ -57,4 +57,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+</style>
